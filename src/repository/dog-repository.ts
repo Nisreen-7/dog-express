@@ -1,4 +1,5 @@
 
+import { ObjectId } from "mongodb";
 import { Dog } from "../entities";
 import { connection } from "./connection"
 
@@ -12,10 +13,10 @@ export const dogRepository = {
         const result = await collection.insertOne(dog);
         dog._id = result.insertedId;
         return dog;
-    }
-    // findById(_id:string) {
-    //     return collection.findOne(new ObjectId(_id));
-    // },
+    },
+    findById(_id:string) {
+        return collection.findOne(new ObjectId(_id));
+    },
     // remove(_id:string) {
     //     return collection.deleteOne({_id:new ObjectId(_id)});
     // },
