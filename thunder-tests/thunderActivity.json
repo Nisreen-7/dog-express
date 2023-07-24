@@ -1,0 +1,40 @@
+[
+    {
+        "_id": "c142b87a-11c9-447d-bff5-67a934c9bddc",
+        "colId": "history",
+        "containerId": "",
+        "name": "localhost:8000/api/dog",
+        "url": "localhost:8000/api/dog",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2023-07-24T11:13:24.690Z",
+        "modified": "2023-07-24T11:13:24.690Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"name\":\"fido\",\n  \"breed\":\"Corgi\",\n  \"birthdate\":\"2021-03-23\"\n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "d1262dbc-1440-4505-9d66-95dd7a29e713",
+        "colId": "history",
+        "containerId": "",
+        "name": "localhost:8000/api/dog",
+        "url": "localhost:8000/api/dog",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-07-24T11:23:40.081Z",
+        "modified": "2023-07-24T11:23:40.081Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"name\":\"fido\",\n  \"breed\":\"Corgi\",\n  \"birthdate\":\"2021-03-23\"\n}",
+            "form": []
+        },
+        "tests": []
+    }
+]
